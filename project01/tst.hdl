@@ -1,0 +1,7 @@
+CHIP tst{
+    IN a[3];
+    OUT out;
+
+    PARTS:
+        Or(a=a[0], b=a[0], out=out);
+}
