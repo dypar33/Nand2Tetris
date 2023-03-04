@@ -70,8 +70,9 @@
     
     @8192
         D=D-A;
+
     @MAIN_LOOP
         D; JEQ
+
     @LOOP
         0; JMP
-    
